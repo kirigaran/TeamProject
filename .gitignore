@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+*.db
+.env
+wwwroot/uploads/
+*.db-shm
+*.db-wal

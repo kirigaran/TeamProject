@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f3eadf">
+  <title>TeamSpace — Project workspace</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="topbar">
+    <a class="brand" href="#" id="brandHome"><span class="brand-mark">t.</span><span>teamspace</span></a>
+    <div class="top-actions"><span class="status-dot"></span><span id="topStatus">Your project workspace</span><button id="logoutBtn" class="button button-quiet hidden">Sign out</button></div>
+  </header>
+  <main id="app" class="shell">
+    <section class="loading"><div class="loader"></div><p>Preparing your workspace…</p></section>
+  </main>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
